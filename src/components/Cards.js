@@ -5,9 +5,9 @@ import myStyling from "../Test.module.css"
 const Cards = (props) => {
   return (
     <>
-        <div className=" col-xs-10 col-sm-6  col-md-4 col-lg-3 my-3" style={{height:"70vh"}}>
-            <a href="#" className='text-decoration-none'>
-                <div className="card rounded-0 h-100">
+        <div className=" col-xs-8 col-sm-6 col-md-4 col-lg-3 my-2 " style={{height:"60vh"}}>
+            <a href="#" className='text-decoration-none '>
+                <div className="card rounded-0 h-100 pb-2">
                     <img src={props.src} className={myStyling.myImages + "card-img-top rounded-0 h-50"} alt="..."/>
                     <div className="card-body">
                         <h6 className="card-title fw-bold my-2" style={externalStyle.cardtext}>{props.title} </h6>
@@ -15,7 +15,7 @@ const Cards = (props) => {
                         <p className="card-text fw-bold my-2" style={externalStyle.cardtext}>{props.price}
                             <small style={externalStyle.cardtextlight} className="fw-bold"> per 100</small>
                         </p>
-                        <a href="#" className="btn btn-danger rounded-1 w-100 mt-3 ">Browse Two-sided Bu... &nbsp;</a>
+                        <a href="#" className="btn btn-danger rounded-1 w-100 mt-3">Browse Two-sided Bu... &nbsp;</a>
                     </div>
                 </div>            
             </a>

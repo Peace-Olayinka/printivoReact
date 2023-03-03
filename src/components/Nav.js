@@ -9,11 +9,11 @@ const Nav = () => {
                     <a class="navbar-brand fw-bold fs-3" href="#">
                         <img src="./project/printivologo.svg" alt=""/>
                     </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="d-flex ms-auto " id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div className=" collapse navbar-collapse ms-auto " id="navbarSupportedContent2">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link fw-bold" aria-current="page" href="#" style={externalStyle.navlink}>Home</a>
                             </li>

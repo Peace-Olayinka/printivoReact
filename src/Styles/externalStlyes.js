@@ -1,13 +1,13 @@
 let externalStyle ={
   Headernav:{
-      color:"#384A62",
-      fontSize:"smaller"
+    color:"#384A62",
+    fontSize:"smaller"
   },
   nav:{
-      backgroundColor:"#ECE8D9",
-      position:"sticky",
-      top:0,
-      zIndex:10
+    backgroundColor:"#ECE8D9",
+    position:"sticky",
+    top:0,
+    zIndex:10
   },
   navlink:{
     color:"#384A62",
