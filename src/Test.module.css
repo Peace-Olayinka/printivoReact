@@ -1,0 +1,77 @@
+.fish{
+    background-color: red;
+    color: white;
+}
+.hero1{
+    background-color: #ECE8D9;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+}
+.hero{
+    background-color: #ECE8D9;
+    color:#384A62;
+    background-image: url(../public/Card3_n9kqin000.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right; 
+}
+.herotext{
+    font-size: 4rem;
+    font-family: "DM-Serif-Dispaly";
+    font-weight: bold;
+}
+.herotext2{
+    color: #8996a6;
+    font-family: 'Arial Narrow';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+@media screen  and(max-width:800px){
+    /* .hero{
+        background-image: url(); 
+    } */
+    /* .herotext{
+        font-size: 2.5rem;
+    }
+    .herotext2{
+        font-size: 1rem;
+    } */
+}
+.search{
+    margin-left: -3em;
+}
+.product{
+    padding: 3em;
+}
+.popular{
+    display: inline !important;
+    color:#384A62;
+    font-family:"DM-Serif-Dispaly";
+    font-weight: bold;
+}
+.see{
+    color:rgb(225, 53, 53);
+    float: right;
+    font-weight: bold;
+}
+.navytext{
+    color: rgb(56, 56, 78);
+}
+@keyframes scale {
+    from {
+        transform: scale(100%);
+    }
+    to {
+        transform: scale(120%);
+    }
+}  
+.myImages:hover{
+    animation-name: scale;
+    animation-duration: 300ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-delay:200ms;       
+}
+
+
